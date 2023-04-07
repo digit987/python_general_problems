@@ -15,7 +15,7 @@ for i in range(len(content)):
 
 print(content)
 
-result = str([chr(ord(i) ^ ord(j)) for i,j in zip(content, salt)])
+result = str([chr(ord(i) ^ ord(j)) for i, j in zip(content, salt)])
 
 print(result)
 
